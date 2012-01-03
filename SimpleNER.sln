@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo", "demo\demo.csproj", "{DF9C244F-7B5C-467F-987D-578A9E5E4F45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleNER", "SimpleNER\SimpleNER.csproj", "{3CC47840-C46F-4A25-B328-215C831E8081}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CC47840-C46F-4A25-B328-215C831E8081}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3CC47840-C46F-4A25-B328-215C831E8081}.Debug|x86.Build.0 = Debug|Any CPU
+		{3CC47840-C46F-4A25-B328-215C831E8081}.Release|x86.ActiveCfg = Release|Any CPU
+		{3CC47840-C46F-4A25-B328-215C831E8081}.Release|x86.Build.0 = Release|Any CPU
+		{DF9C244F-7B5C-467F-987D-578A9E5E4F45}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DF9C244F-7B5C-467F-987D-578A9E5E4F45}.Debug|x86.Build.0 = Debug|Any CPU
+		{DF9C244F-7B5C-467F-987D-578A9E5E4F45}.Release|x86.ActiveCfg = Release|Any CPU
+		{DF9C244F-7B5C-467F-987D-578A9E5E4F45}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = demo\demo.csproj
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.TextStylePolicy = $2
+		$2.FileWidth = 120
+		$2.TabWidth = 4
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/plain
+		$2.scope = text/plain
+		$0.StandardHeader = $3
+		$3.Text = 
+		$3.IncludeInNewFiles = True
+		$0.VersionControlPolicy = $4
+		$4.inheritsSet = Mono
+	EndGlobalSection
+EndGlobal
